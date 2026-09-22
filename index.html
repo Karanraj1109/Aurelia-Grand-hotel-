@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurelia Grand | A Sanctuary Beyond Ordinary</title>
+    <meta name="description" content="An intimate retreat in Ubud, Bali where timeless Balinese craftsmanship meets contemporary luxury.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. PRELOADER -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <h1 class="brand-text">AURELIA GRAND</h1>
+            <div class="loading-line"></div>
+        </div>
+    </div>
+
+    <!-- 2. NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#">AURELIA GRAND</a>
+            </div>
+            <nav class="nav-links">
+                <a href="#rooms">Rooms & Suites</a>
+                <a href="#experiences">Experiences</a>
+                <a href="#dining">Dining</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About</a>
+            </nav>
+            <div class="nav-cta">
+                <a href="#book" class="btn btn-outline-light">Book Your Stay</a>
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <nav>
+                <a href="#rooms">Rooms & Suites</a>
+                <a href="#experiences">Experiences</a>
+                <a href="#dining">Dining</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About</a>
+                <a href="#book" class="btn btn-solid">Book Your Stay</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 3. HERO SECTION -->
+    <section class="hero">
+        <div class="hero-bg parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal-fade">
+            <span class="small-label">Welcome to Aurelia Grand</span>
+            <h1 class="hero-title">A Sanctuary<br>Beyond Ordinary</h1>
+            <p class="hero-desc">An intimate retreat where timeless Balinese craftsmanship meets contemporary luxury.</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-solid">Explore The Hotel</a>
+                <a href="#book" class="btn btn-outline-light">Book Your Stay</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- 4. INTRODUCTION SECTION -->
+    <section id="about" class="intro section-padding">
+        <div class="container intro-grid">
+            <div class="intro-text reveal-slide-up">
+                <span class="small-label dark">The Aurelia Experience</span>
+                <h2 class="section-title">Where every detail<br>is designed to linger.</h2>
+                <p>Hidden within the lush embrace of Ubud's tropical forests, Aurelia Grand offers an escape from the ordinary. Here, luxury is whispered through gentle breezes, bespoke service, and architecture that honors the soul of Bali. Surrender to a slower pace of life.</p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-num">12</span>
+                        <span class="stat-label">Private Villas</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">24</span>
+                        <span class="stat-label">Suites</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">01</span>
+                        <span class="stat-label">Extraordinary<br>Destination</span>
+                    </div>
+                </div>
+            </div>
+            <div class="intro-image reveal-slide-left">
+                <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Aurelia Grand Resort Architecture" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. ROOMS & SUITES -->
+    <section id="rooms" class="rooms section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center reveal-fade">
+                <span class="small-label dark">Accommodations</span>
+                <h2 class="section-title">Stay Somewhere Exceptional</h2>
+            </div>
+            <div class="rooms-grid">
+                <!-- Room 1 -->
+                <div class="room-card reveal-slide-up" style="transition-delay: 0.1s;">
+                    <div class="room-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Garden Suite" loading="lazy">
+                    </div>
+                    <div class="room-info">
+                        <h3>Garden Suite</h3>
+                        <p>A tranquil haven opening directly into our curated botanical gardens.</p>
+                        <ul class="room-meta">
+                            <li>85 sqm</li>
+                            <li>Up to 2 Guests</li>
+                            <li>From $450/nt</li>
+                        </ul>
+                        <a href="#" class="link-arrow">Explore Room <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </div>
+                </div>
+                <!-- Room 2 -->
+                <div class="room-card reveal-slide-up" style="transition-delay: 0.2s;">
+                    <div class="room-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Infinity Pool Villa" loading="lazy">
+                    </div>
+                    <div class="room-info">
+                        <h3>Infinity Pool Villa</h3>
+                        <p>Suspended above the jungle canopy featuring a private infinity plunge pool.</p>
+                        <ul class="room-meta">
+                            <li>140 sqm</li>
+                            <li>Up to 3 Guests</li>
+                            <li>From $850/nt</li>
+                        </ul>
+                        <a href="#" class="link-arrow">Explore Room <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </div>
+                </div>
+                <!-- Room 3 -->
+                <div class="room-card reveal-slide-up" style="transition-delay: 0.3s;">
+                    <div class="room-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Presidential Residence" loading="lazy">
+                    </div>
+                    <div class="room-info">
+                        <h3>Presidential Residence</h3>
+                        <p>The pinnacle of luxury. A multi-level estate with panoramic valley views.</p>
+                        <ul class="room-meta">
+                            <li>320 sqm</li>
+                            <li>Up to 6 Guests</li>
+                            <li>From $2,200/nt</li>
+                        </ul>
+                        <a href="#" class="link-arrow">Explore Room <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. FULL-WIDTH FEATURE -->
+    <section class="feature-parallax">
+        <div class="parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');"></div>
+        <div class="parallax-overlay"></div>
+        <div class="parallax-content reveal-fade">
+            <h2>Wake to the rhythm of nature.</h2>
+            <p>Every sunrise brings a new perspective. Breathe in the pristine forest air.</p>
+        </div>
+    </section>
+
+    <!-- 7. EXPERIENCES -->
+    <section id="experiences" class="experiences section-padding">
+        <div class="container">
+            <div class="section-header text-center reveal-fade">
+                <span class="small-label dark">Curated Moments</span>
+                <h2 class="section-title">Immersive Experiences</h2>
+            </div>
+            
+            <div class="exp-container reveal-fade">
+                <div class="exp-nav">
+                    <button class="exp-btn active" data-index="0">Private Spa Ritual</button>
+                    <button class="exp-btn" data-index="1">Sunrise Yoga</button>
+                    <button class="exp-btn" data-index="2">Jungle Dining</button>
+                    <button class="exp-btn" data-index="3">Balinese Ceremony</button>
+                    <button class="exp-btn" data-index="4">Sunset Cocktails</button>
+                </div>
+                <div class="exp-content-area">
+                    <div class="exp-image-wrap">
+                        <img id="exp-img" src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Private Spa Ritual" loading="lazy">
+                    </div>
+                    <div class="exp-text">
+                        <h3 id="exp-title">Private Spa Ritual</h3>
+                        <p id="exp-desc">Experience ancient healing techniques passed down through generations, utilizing organic botanicals harvested directly from our gardens.</p>
+                        <a href="#" class="link-arrow">Discover More <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. DINING -->
+    <section id="dining" class="dining bg-light section-padding">
+        <div class="container dining-grid">
+            <div class="dining-image reveal-slide-right">
+                <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Savoir Restaurant" loading="lazy">
+            </div>
+            <div class="dining-content reveal-slide-up">
+                <span class="small-label dark">Gastronomy</span>
+                <h2 class="section-title">SAVOIR</h2>
+                <p class="large-text">"An intimate dining destination inspired by the flavors, rituals, and landscapes of Indonesia."</p>
+                <div class="info-list">
+                    <div>
+                        <strong>Cuisine</strong>
+                        <span>Modern Indonesian & Wood-fire Grill</span>
+                    </div>
+                    <div>
+                        <strong>Hours</strong>
+                        <span>Breakfast: 7:00 AM – 10:30 AM<br>Dinner: 6:00 PM – 10:30 PM</span>
+                    </div>
+                </div>
+                <div class="dining-buttons">
+                    <a href="#" class="btn btn-solid">Reserve a Table</a>
+                    <a href="#" class="btn btn-outline-dark">View Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. SPA SECTION -->
+    <section class="spa section-padding">
+        <div class="container spa-grid">
+            <div class="spa-content reveal-slide-up">
+                <span class="small-label dark">Wellness</span>
+                <h2 class="section-title">A Ritual of Renewal</h2>
+                <p>Set beside a cascading river, our sanctuary of wellness draws upon Balinese holistic principles. Reconnect with your center through bespoke therapies, guided meditation, and hydrotherapy circuits.</p>
+                <ul class="treatment-list">
+                    <li>Signature Bamboo Massage</li>
+                    <li>Volcanic Clay Body Wrap</li>
+                    <li>Crystal Sound Bath Meditation</li>
+                </ul>
+                <a href="#" class="btn btn-solid mt-4">Explore Treatments</a>
+            </div>
+            <div class="spa-image reveal-slide-left">
+                <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Spa Wellness" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. GALLERY -->
+    <section id="gallery" class="gallery section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center reveal-fade">
+                <span class="small-label dark">Visual Journey</span>
+                <h2 class="section-title">A Glimpse of Aurelia</h2>
+            </div>
+            <div class="masonry-grid reveal-slide-up">
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Resort Pool" class="gallery-img" loading="lazy"></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Villa Exterior" class="gallery-img" loading="lazy"></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-1560624052-449f5ddf0c31?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Cocktails" class="gallery-img" loading="lazy"></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Bali Landscape" class="gallery-img" loading="lazy"></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Luxury Bedroom" class="gallery-img" loading="lazy"></div>
+                <div class="masonry-item"><img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Spa Treatment" class="gallery-img" loading="lazy"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Overlay -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="lightbox-close" aria-label="Close Lightbox">&times;</button>
+        <button class="lightbox-prev" aria-label="Previous Image">&#10094;</button>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Expanded view">
+        <button class="lightbox-next" aria-label="Next Image">&#10095;</button>
+    </div>
+
+    <!-- 11. TESTIMONIALS -->
+    <section class="testimonials section-padding">
+        <div class="container reveal-fade">
+            <div class="testimonial-carousel">
+                <div class="testim-slide active">
+                    <p class="quote">"Every moment felt intentional. From the architecture to the service, Aurelia Grand feels less like a hotel and more like a private world."</p>
+                    <span class="author">— Elena Morgan</span>
+                    <span class="location">London, United Kingdom</span>
+                </div>
+                <div class="testim-slide">
+                    <p class="quote">"A masterclass in subtle luxury. The jungle dining experience was the highlight of our month in Indonesia. Simply unparalleled."</p>
+                    <span class="author">— James & Clara</span>
+                    <span class="location">Sydney, Australia</span>
+                </div>
+                <div class="testim-slide">
+                    <p class="quote">"We arrived exhausted and left completely renewed. The spa therapies and the serenity of the Infinity Villa are etched in our memories."</p>
+                    <span class="author">— Amara Singh</span>
+                    <span class="location">Singapore</span>
+                </div>
+            </div>
+            <div class="testim-controls">
+                <button class="dot active" data-slide="0" aria-label="Slide 1"></button>
+                <button class="dot" data-slide="1" aria-label="Slide 2"></button>
+                <button class="dot" data-slide="2" aria-label="Slide 3"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. LOCATION -->
+    <section class="location-section bg-light section-padding">
+        <div class="container location-grid">
+            <div class="location-info reveal-slide-up">
+                <span class="small-label dark">Destination</span>
+                <h2 class="section-title">Between the Forest and the Sky</h2>
+                <p>Located in the cultural heart of Bali, Aurelia Grand offers secluded tranquility while remaining intimately connected to Ubud's vibrant heritage.</p>
+                <div class="address-block mt-4">
+                    <strong>Aurelia Grand</strong><br>
+                    Jl. Raya Sayan, Ubud<br>
+                    Bali 80571, Indonesia
+                </div>
+                <h4 class="mt-4 mb-2">Nearby Landmarks</h4>
+                <ul class="nearby-list">
+                    <li>Campuhan Ridge Walk <span>10 mins</span></li>
+                    <li>Ubud Palace <span>15 mins</span></li>
+                    <li>Sacred Monkey Forest <span>20 mins</span></li>
+                    <li>Tegallalang Rice Terrace <span>30 mins</span></li>
+                </ul>
+            </div>
+            <div class="location-map reveal-fade">
+                <div class="map-placeholder">
+                    <div class="map-pin">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="#2C3D30" stroke="#C5A880" stroke-width="1"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3" fill="#FDFBF7"></circle></svg>
+                    </div>
+                    <div class="map-ripple"></div>
+                    <span class="map-label">Ubud, Bali</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 13. BOOKING CTA -->
+    <section id="book" class="booking-cta parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+        <div class="parallax-overlay"></div>
+        <div class="container text-center reveal-slide-up" style="position: relative; z-index: 2;">
+            <h2 class="cta-title">Your private escape awaits.</h2>
+            <a href="#" class="btn btn-solid-gold mt-4">Reserve Your Stay</a>
+        </div>
+    </section>
+
+    <!-- 14. FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3>AURELIA GRAND</h3>
+                    <p>A Sanctuary Beyond Ordinary</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <a href="#rooms">Rooms & Suites</a>
+                    <a href="#experiences">Experiences</a>
+                    <a href="#dining">Dining</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#about">About</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>Ubud, Bali, Indonesia</p>
+                    <p>+62 361 000 000</p>
+                    <p><a href="mailto:stay@aureliagrand.com">stay@aureliagrand.com</a></p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram">In</a>
+                        <a href="#" aria-label="Facebook">Fb</a>
+                        <a href="#" aria-label="Pinterest">Pi</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aurelia Grand. All rights reserved.</p>
+                <p class="credit">Designed & Developed by <strong>Ran Studio</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
